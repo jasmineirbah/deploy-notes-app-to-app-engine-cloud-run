@@ -31,7 +31,7 @@ app.post("/notes", (req, res) => {
       res.status(500).send(err);
     } else {
       res.json({
-        message: "Note added successfully"
+        message: "Note added successfully",
       });
     }
   });
